@@ -19,6 +19,6 @@ keyboard.on_release_key('q', on_key_event)
 
 while running:
     start_audio()
-    time.sleep(1)  # Adjust the sleep duration as needed
+    time.sleep(1)
 
 keyboard.unhook_all()
